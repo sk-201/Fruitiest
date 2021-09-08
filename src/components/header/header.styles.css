@@ -1,0 +1,16 @@
+.header{
+    height:7vh;
+    width: 100%;
+    margin-top: 0;
+    background-color:#f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+big{
+    color:#336b30;
+    font-weight:bolder;
+    text-align: center;
+    margin:0 50px;
+    
+    
+}
