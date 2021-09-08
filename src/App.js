@@ -1,20 +1,20 @@
 import React from 'react';
-// import{ Switch, Route} from 'react-router-dom';
+ import{ Switch, Route} from 'react-router-dom';
 import Header from '../src/components/header/header.component';
+import Homepage from './pages/homepage/homepage.component';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Switch>
-        <Route exact>
+       <Switch>
+       <Route exact path='/' component={Homepage}/>
 
       
-      </Switch> */}
-    {/* <img src={logo}alt="logo"/> */}
-    <h1>WELCOME TO FRUITIEST</h1>
-      <button>GET STARTED</button>
+      </Switch> 
+   
+    
     </div>
   );
 }

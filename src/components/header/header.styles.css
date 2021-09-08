@@ -6,11 +6,13 @@
     padding-top: 10px;
     padding-bottom: 0;
 }
-big{
+.option{
     color:#336b30;
-    font-weight:bolder;
+    font-size: large;
+   
     text-align: center;
     margin:0 50px;
+    text-decoration: none;
     
     
 }
